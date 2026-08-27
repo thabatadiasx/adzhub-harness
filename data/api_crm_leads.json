@@ -1,0 +1,19 @@
+{
+  "client_id": "cli_housewhey",
+  "leads": [
+    { "lead_id": "l001", "created_at": "2026-08-12T09:20:00-03:00", "status": "venda", "value_brl": 189.90, "utm_source": "facebook", "utm_medium": "cpc", "utm_content": "ad_omega3_ugc01", "origem_declarada": "Instagram" },
+    { "lead_id": "l002", "created_at": "2026-08-12T14:05:00-03:00", "status": "agendamento", "value_brl": 0, "utm_source": "facebook", "utm_medium": "cpc", "utm_content": "ad_omega3_hook_prova", "origem_declarada": "Anúncio no Instagram" },
+    { "lead_id": "l003", "created_at": "2026-08-13T10:40:00-03:00", "status": "perdido", "value_brl": 0, "utm_source": "facebook", "utm_medium": "cpc", "utm_content": "ad_omega3_hook_prova", "origem_declarada": "Indicação de amiga" },
+    { "lead_id": "l004", "created_at": "2026-08-13T16:15:00-03:00", "status": "agendamento", "value_brl": 0, "utm_source": "facebook", "utm_medium": "cpc", "utm_content": "ad_omega3_carousel_faq", "origem_declarada": "Instagram" },
+    { "lead_id": "l005", "created_at": "2026-08-14T08:55:00-03:00", "status": "agendamento", "value_brl": 0, "utm_source": null, "utm_medium": null, "utm_content": null, "origem_declarada": "Instagram" },
+    { "lead_id": "l006", "created_at": "2026-08-14T11:30:00-03:00", "status": "agendamento", "value_brl": 0, "utm_source": null, "utm_medium": null, "utm_content": null, "origem_declarada": "Instagram" },
+    { "lead_id": "l007", "created_at": "2026-08-15T09:00:00-03:00", "status": "venda", "value_brl": 189.90, "utm_source": "facebook", "utm_medium": "cpc", "utm_content": "ad_omega3_remkt_desconto", "origem_declarada": "Já tinha comprado antes" },
+    { "lead_id": "l008", "created_at": "2026-08-16T13:20:00-03:00", "status": "agendamento", "value_brl": 0, "utm_source": null, "utm_medium": null, "utm_content": null, "origem_declarada": "Instagram" },
+    { "lead_id": "l009", "created_at": "2026-08-17T15:45:00-03:00", "status": "perdido", "value_brl": 0, "utm_source": "facebook", "utm_medium": "cpc", "utm_content": "ad_omega3_carousel_faq", "origem_declarada": "Instagram" },
+    { "lead_id": "l010", "created_at": "2026-08-18T10:10:00-03:00", "status": "agendamento", "value_brl": 0, "utm_source": null, "utm_medium": null, "utm_content": null, "origem_declarada": "Instagram" },
+    { "lead_id": "l011", "created_at": "2026-08-19T09:30:00-03:00", "status": "venda", "value_brl": 379.80, "utm_source": "facebook", "utm_medium": "cpc", "utm_content": "ad_omega3_ugc01", "origem_declarada": "Instagram" },
+    { "lead_id": "l012", "created_at": "2026-08-05T12:00:00-03:00", "status": "venda", "value_brl": 249.90, "utm_source": "facebook", "utm_medium": "cpc", "utm_content": "ad_namorados_kit01", "origem_declarada": "Instagram" },
+    { "lead_id": "l013", "created_at": "2026-08-06T14:30:00-03:00", "status": "venda", "value_brl": 249.90, "utm_source": "facebook", "utm_medium": "cpc", "utm_content": "ad_namorados_kit01", "origem_declarada": "Instagram" },
+    { "lead_id": "l014", "created_at": "2026-08-20T11:00:00-03:00", "status": "venda", "value_brl": 159.90, "utm_source": "google", "utm_medium": "email", "utm_content": "ad_whey_video01", "origem_declarada": "E-mail promocional" }
+  ]
+}

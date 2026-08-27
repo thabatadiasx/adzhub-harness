@@ -1,0 +1,56 @@
+{
+  "client_id": "cli_housewhey",
+  "gerado_em": "2026-08-24T09:00:00-03:00",
+  "ranking": [
+    {
+      "ad_id": "ad_omega3_remkt_desconto",
+      "hook_score": 8.7,
+      "cta_score": 9.1,
+      "estagio": "remarketing",
+      "recomendacao": "seguir",
+      "motivo": "Hook rate alto (0.34) e CTA de desconto convertendo bem no público de remarketing."
+    },
+    {
+      "ad_id": "ad_omega3_ugc01",
+      "hook_score": 7.9,
+      "cta_score": 6.8,
+      "estagio": "prospecção",
+      "recomendacao": "variar",
+      "motivo": "Hook forte, mas CTA genérico. Testar variação de CTA mantendo o mesmo hook."
+    },
+    {
+      "ad_id": "ad_omega3_hook_prova",
+      "hook_score": 4.2,
+      "cta_score": 5.0,
+      "estagio": "prospecção",
+      "recomendacao": "pausar",
+      "motivo": "Hook rate caiu para 0.18 nas últimas semanas — sinal de saturação de audiência neste criativo."
+    },
+    {
+      "ad_id": "ad_omega3_carousel_faq",
+      "hook_score": 3.1,
+      "cta_score": 4.5,
+      "estagio": "prospecção",
+      "recomendacao": "pausar",
+      "motivo": "Hook rate mais baixo do conjunto (0.12), pouco engajamento no formato carrossel para esta oferta."
+    }
+  ],
+  "briefs_sugeridos": [
+    {
+      "para_ad_id": "ad_omega3_hook_prova",
+      "publico": "Prospecção fria, interesse em suplementação e bem-estar, 25-45 anos",
+      "hook": "Pergunta direta sobre um sintoma comum que o Ômega 3 ajuda a resolver, nos primeiros 2s",
+      "mensagem": "Foco em benefício percebido rápido (energia, imunidade), não em explicação técnica do produto",
+      "cta": "Comece hoje — frete grátis na 1ª compra",
+      "metrica_sucesso": "Hook rate acima de 0.25 nos primeiros 3 dias"
+    },
+    {
+      "para_ad_id": "ad_omega3_carousel_faq",
+      "publico": "Prospecção fria, mesma audiência-base da campanha",
+      "hook": "Depoimento em vídeo curto no lugar do carrossel estático",
+      "mensagem": "Prova social real substituindo a explicação de FAQ",
+      "cta": "Veja o antes/depois em 30s",
+      "metrica_sucesso": "CTR acima de 1.2%"
+    }
+  ]
+}

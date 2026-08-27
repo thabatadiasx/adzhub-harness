@@ -1,0 +1,18 @@
+{
+  "client_id": "cli_housewhey",
+  "oferta": "Suplementos alimentares (whey protein, ômega 3, multivitamínicos) vendidos via e-commerce próprio",
+  "promessa": "Praticidade e qualidade para quem quer manter uma rotina saudável sem complicação",
+  "prova": "Mais de 12 mil avaliações positivas no site; selo de qualidade ANVISA; depoimentos em vídeo de clientes reais",
+  "objecoes_comuns": [
+    "Achar que suplemento é 'só para atleta'",
+    "Dúvida sobre dosagem/segurança de uso contínuo",
+    "Preço percebido como alto comparado a farmácia genérica"
+  ],
+  "tom_de_voz": "Direto, acolhedor, sem jargão técnico excessivo. Fala como uma amiga que entende do assunto, não como um vendedor.",
+  "nao_pode_falar": [
+    "Não pode prometer cura ou tratamento de doenças (regulação ANVISA)",
+    "Não pode comparar diretamente com marcas concorrentes nomeadas",
+    "Evitar termos alarmistas de saúde (ex: 'você está deficiente e nem sabe')"
+  ],
+  "publico_principal": "Pessoas de 25-45 anos interessadas em bem-estar e rotina fitness, não necessariamente atletas de alto rendimento"
+}

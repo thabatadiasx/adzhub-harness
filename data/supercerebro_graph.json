@@ -1,0 +1,62 @@
+{
+  "client_id": "cli_housewhey",
+  "nodes": [
+    { "id": "hub_spot", "type": "hub", "label": "SPOT" },
+    { "id": "cli_housewhey", "type": "hub", "label": "Housewhey", "props": { "segmento": "e-commerce de suplementos" } },
+    { "id": "p_aline", "type": "person", "label": "Aline", "props": { "role": "tráfego" } },
+    { "id": "p_carolina", "type": "person", "label": "Carolina", "props": { "role": "gestão de contas" } },
+    { "id": "p_luiza", "type": "person", "label": "Luiza", "props": { "role": "atendimento / WhatsApp" } },
+
+    { "id": "camp_namorados", "type": "campaign", "label": "Namorados", "props": { "status": "encerrada" } },
+    { "id": "camp_omega3", "type": "campaign", "label": "Ômega 3", "props": { "status": "ativa" } },
+    { "id": "camp_whey", "type": "campaign", "label": "Whey Protein", "props": { "status": "ativa" } },
+
+    { "id": "ch_meta", "type": "channel", "label": "Meta Ads" },
+    { "id": "ch_email", "type": "channel", "label": "E-mail" },
+    { "id": "ch_whatsapp", "type": "channel", "label": "WhatsApp" },
+
+    { "id": "mt_reuniao_spot", "type": "meeting", "label": "Reunião SPOT semanal" },
+
+    { "id": "tk_kpi_meta", "type": "task", "label": "KPI Meta Ads", "props": { "status": "em acompanhamento" } },
+    { "id": "tk_aprovacao_namorados", "type": "task", "label": "Aprovação peças Namorados", "props": { "status": "pendente" } },
+    { "id": "tk_aprovacao_omega3", "type": "task", "label": "Aprovação peças Ômega 3", "props": { "status": "pendente há 6 dias" } },
+
+    { "id": "as_criativos_namorados", "type": "asset", "label": "Criativos Namorados (3 peças)" },
+    { "id": "as_criativos_omega3", "type": "asset", "label": "Criativos Ômega 3 (3 peças)" }
+  ],
+  "edges": [
+    { "from": "p_aline", "to": "hub_spot", "rel": "MEMBER_OF" },
+    { "from": "p_carolina", "to": "hub_spot", "rel": "MEMBER_OF" },
+    { "from": "p_luiza", "to": "hub_spot", "rel": "MEMBER_OF" },
+
+    { "from": "hub_spot", "to": "cli_housewhey", "rel": "OPERATES" },
+    { "from": "p_aline", "to": "ch_meta", "rel": "OPERATES" },
+    { "from": "p_luiza", "to": "ch_whatsapp", "rel": "OPERATES" },
+
+    { "from": "p_aline", "to": "camp_namorados", "rel": "OPERATES" },
+    { "from": "p_aline", "to": "camp_omega3", "rel": "OPERATES" },
+    { "from": "p_aline", "to": "camp_whey", "rel": "OPERATES" },
+
+    { "from": "camp_namorados", "to": "cli_housewhey", "rel": "TRACKS" },
+    { "from": "camp_omega3", "to": "cli_housewhey", "rel": "TRACKS" },
+    { "from": "camp_whey", "to": "cli_housewhey", "rel": "TRACKS" },
+
+    { "from": "camp_namorados", "to": "ch_meta", "rel": "TRACKS" },
+    { "from": "camp_omega3", "to": "ch_meta", "rel": "TRACKS" },
+    { "from": "camp_whey", "to": "ch_email", "rel": "TRACKS" },
+
+    { "from": "camp_namorados", "to": "as_criativos_namorados", "rel": "MENTIONS" },
+    { "from": "camp_omega3", "to": "as_criativos_omega3", "rel": "MENTIONS" },
+
+    { "from": "carolina_approves_namorados", "to": "tk_aprovacao_namorados", "rel": "APPROVES" },
+    { "from": "p_carolina", "to": "tk_aprovacao_namorados", "rel": "APPROVES" },
+    { "from": "p_carolina", "to": "tk_aprovacao_omega3", "rel": "APPROVES" },
+
+    { "from": "mt_reuniao_spot", "to": "cli_housewhey", "rel": "TRACKS" },
+    { "from": "p_aline", "to": "mt_reuniao_spot", "rel": "MENTIONS" },
+    { "from": "p_carolina", "to": "mt_reuniao_spot", "rel": "MENTIONS" },
+
+    { "from": "camp_omega3", "to": "tk_kpi_meta", "rel": "TRACKS" },
+    { "from": "p_carolina", "to": "tk_kpi_meta", "rel": "TRACKS" }
+  ]
+}

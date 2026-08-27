@@ -1,0 +1,49 @@
+{
+  "client_id": "cli_housewhey",
+  "conversas": [
+    {
+      "conversa_id": "conv_reuniao_20260815",
+      "tipo": "reuniao",
+      "data": "2026-08-15T11:00:00-03:00",
+      "participantes": ["p_aline", "p_carolina"],
+      "bullets": [
+        "CPA da campanha Ômega 3 está mais alto que o esperado, mas volume de leads segue estável",
+        "Decisão: monitorar mais uma semana antes de agir, sem pausar nada ainda",
+        "Carolina pede pra Aline investigar se tem algo estranho na origem dos leads recentes"
+      ]
+    },
+    {
+      "conversa_id": "conv_whatsapp_20260808",
+      "tipo": "whatsapp",
+      "data": "2026-08-08T15:30:00-03:00",
+      "participantes": ["p_aline", "p_luiza"],
+      "bullets": [
+        "Luiza: cliente confirmou tema do kit de Namorados, precisa dos 3 criativos até quinta",
+        "Aline: já mandei pro design, deve ficar pronto amanhã",
+        "Combinado: Carolina aprova antes de subir pro Meta Ads"
+      ]
+    },
+    {
+      "conversa_id": "conv_whatsapp_20260818",
+      "tipo": "whatsapp",
+      "data": "2026-08-18T16:45:00-03:00",
+      "participantes": ["p_luiza", "p_aline", "p_carolina"],
+      "bullets": [
+        "Luiza: várias pessoas no atendimento dizem que vieram do Instagram, mas não encontro o anúncio que elas viram",
+        "Aline: estranho, vou olhar o UTM dos anúncios ativos",
+        "Carolina: registra isso, vamos olhar com calma na próxima revisão"
+      ]
+    },
+    {
+      "conversa_id": "conv_whatsapp_20260820",
+      "tipo": "whatsapp",
+      "data": "2026-08-20T14:00:00-03:00",
+      "participantes": ["p_aline", "p_carolina"],
+      "bullets": [
+        "Aline: Carolina, as peças de Namorados ainda estão esperando sua aprovação, já faz uma semana",
+        "Carolina: desculpa, essa semana ficou puxada, vejo ainda hoje",
+        "Aline: preciso saber logo pra não perder a data da campanha"
+      ]
+    }
+  ]
+}

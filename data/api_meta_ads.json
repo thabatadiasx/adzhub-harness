@@ -1,0 +1,113 @@
+{
+  "client_id": "cli_housewhey",
+  "campaigns": [
+    {
+      "campaign_id": "camp_omega3",
+      "campaign_name": "Ômega 3 — Conversão",
+      "status": "ativa",
+      "budget_daily_brl": 150.00,
+      "adsets": [
+        {
+          "adset_id": "adset_omega3_prospeccao",
+          "adset_name": "Ômega 3 - Prospecção Frio",
+          "ads": [
+            {
+              "ad_id": "ad_omega3_ugc01",
+              "ad_name": "UGC - Depoimento Cliente",
+              "utm_content": "ad_omega3_ugc01",
+              "spend": 842.30,
+              "impressions": 41200,
+              "clicks": 610,
+              "hook_rate": 0.31,
+              "status": "ativo"
+            },
+            {
+              "ad_id": "ad_omega3_hook_prova",
+              "ad_name": "Hook - Prova Social",
+              "utm_content": "ad_omega3_hook_prova",
+              "spend": 1210.00,
+              "impressions": 38500,
+              "clicks": 355,
+              "hook_rate": 0.18,
+              "status": "ativo"
+            },
+            {
+              "ad_id": "ad_omega3_carousel_faq",
+              "ad_name": "Carousel - FAQ Benefícios",
+              "utm_content": "ad_omega3_carousel_faq",
+              "spend": 690.10,
+              "impressions": 52300,
+              "clicks": 298,
+              "hook_rate": 0.12,
+              "status": "ativo"
+            }
+          ]
+        },
+        {
+          "adset_id": "adset_omega3_remarketing",
+          "adset_name": "Ômega 3 - Remarketing",
+          "ads": [
+            {
+              "ad_id": "ad_omega3_remkt_desconto",
+              "ad_name": "Remarketing - Desconto 10%",
+              "utm_content": "ad_omega3_remkt_desconto",
+              "spend": 415.60,
+              "impressions": 9800,
+              "clicks": 210,
+              "hook_rate": 0.34,
+              "status": "ativo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "campaign_id": "camp_namorados",
+      "campaign_name": "Namorados — Kit Presente",
+      "status": "encerrada",
+      "budget_daily_brl": 200.00,
+      "adsets": [
+        {
+          "adset_id": "adset_namorados_prospeccao",
+          "adset_name": "Namorados - Prospecção",
+          "ads": [
+            {
+              "ad_id": "ad_namorados_kit01",
+              "ad_name": "Kit Casal - Estático",
+              "utm_content": "ad_namorados_kit01",
+              "spend": 1890.00,
+              "impressions": 61000,
+              "clicks": 980,
+              "hook_rate": 0.28,
+              "status": "pausado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "campaign_id": "camp_whey",
+      "campaign_name": "Whey Protein — Aquisição",
+      "status": "ativa",
+      "budget_daily_brl": 120.00,
+      "adsets": [
+        {
+          "adset_id": "adset_whey_prospeccao",
+          "adset_name": "Whey - Prospecção",
+          "ads": [
+            {
+              "ad_id": "ad_whey_video01",
+              "ad_name": "Vídeo - Treino + Whey",
+              "utm_content": "ad_whey_video01",
+              "spend": 530.00,
+              "impressions": 28000,
+              "clicks": 402,
+              "hook_rate": 0.22,
+              "status": "ativo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
